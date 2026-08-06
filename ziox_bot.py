@@ -25,7 +25,7 @@ from telegram.ext import (
 BOT_TOKEN = "8230994359:AAE5R_UYe3UYKuuLhCDa-rsp4wK1JwwGMa0"
 
 # ⚠️ Remplace par TON ID Telegram (nombre). Pour le trouver : parle à @userinfobot sur Telegram.
-OWNER_ID = 123456789  # <-- À REMPLACER
+OWNER_ID = 8914448661  # <-- À REMPLACER
 
 # Mot de passe secret pour que la famille Ziox soit reconnue
 FAMILY_PASSWORD = "ZIOX2026"  # <-- modifiable
