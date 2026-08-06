@@ -34,13 +34,13 @@ from telegram.ext import (
 # ============== CONFIGURATION ==============
 BOT_TOKEN = "8230994359:AAE5R_UYe3UYKuuLhCDa-rsp4wK1JwwGMa0"  # ⚠️ à régénérer via BotFather
 
-OWNER_ID = 123456789  # <-- REMPLACE par ton ID Telegram (via @userinfobot)
+OWNER_ID = 8914448661  # <-- REMPLACE par ton ID Telegram (via @userinfobot)
 
 FAMILY_PASSWORD = "ZIOX2026"  # mot de passe famille Ziox, modifiable
 
 # --- Fish Audio TTS ---
-FISH_API_KEY = "TA_CLE_FISH_AUDIO_ICI"  # <-- REMPLACE
-FISH_VOICE_REFERENCE_ID = ""  # optionnel : laisse vide pour la voix par défaut
+FISH_API_KEY = "sk-fish-qW4eIJUOZuqwXGhzjm7n3sS44Bdr-SE4WFpBx4iDsho"  # <-- REMPLACE
+FISH_VOICE_REFERENCE_ID = "98655a12fa944e26b274c535e5e03842"  # optionnel : laisse vide pour la voix par défaut
 FISH_TTS_ENABLED = True  # passe à False pour désactiver le vocal partout
 
 # --- Messages ---
