@@ -39,7 +39,7 @@ OWNER_ID = 8914448661  # <-- REMPLACE par ton ID Telegram (via @userinfobot)
 FAMILY_PASSWORD = "ZIOX2026"  # mot de passe famille Ziox, modifiable
 
 # --- Fish Audio TTS ---
-FISH_API_KEY = "sk-fish-qW4eIJUOZuqwXGhzjm7n3sS44Bdr-SE4WFpBx4iDsho"  # <-- REMPLACE
+FISH_API_KEY = "sk-fish-ujIyReryVaKgi2wAIJ7r9MFgNIbr4nh1YCeYcxynvn4"  # <-- REMPLACE
 FISH_VOICE_REFERENCE_ID = "98655a12fa944e26b274c535e5e03842"  # optionnel : laisse vide pour la voix par défaut
 FISH_TTS_ENABLED = True  # passe à False pour désactiver le vocal partout
 
@@ -382,7 +382,7 @@ async def track_chat_members(update: Update, context: ContextTypes.DEFAULT_TYPE)
 def main():
     if OWNER_ID == 8914448661:
         logger.warning("⚠️ OWNER_ID non configuré !")
-    if FISH_API_KEY == "sk-fish-qW4eIJUOZuqwXGhzjm7n3sS44Bdr-SE4WFpBx4iDsho":
+    if FISH_API_KEY == "sk-fish-ujIyReryVaKgi2wAIJ7r9MFgNIbr4nh1YCeYcxynvn4":
         logger.warning("⚠️ FISH_API_KEY non configurée — les réponses vocales seront désactivées.")
 
     app = Application.builder().token(BOT_TOKEN).build()
