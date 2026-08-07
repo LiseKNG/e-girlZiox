@@ -38,7 +38,7 @@ from telegram.ext import (
 # ============== CONFIGURATION ==============
 BOT_TOKEN = "8230994359:AAE5R_UYe3UYKuuLhCDa-rsp4wK1JwwGMa0"  # ⚠️ à régénérer via BotFather
 
-OWNER_ID = 123456789  # <-- REMPLACE par ton ID Telegram (via @userinfobot)
+OWNER_ID = 8914448661  # <-- REMPLACE par ton ID Telegram (via @userinfobot)
 
 FAMILY_PASSWORD = "ZIOX2026"
 
@@ -683,7 +683,7 @@ async def track_chat_members(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 
 def main():
-    if OWNER_ID == 123456789:
+    if OWNER_ID == 8914448661:
         logger.warning("⚠️ OWNER_ID non configuré !")
     if FISH_API_KEY == "TA_CLE_FISH_AUDIO_ICI":
         logger.warning("⚠️ FISH_API_KEY non configurée — vocal désactivé.")
