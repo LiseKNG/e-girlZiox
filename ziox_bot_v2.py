@@ -380,9 +380,9 @@ async def track_chat_members(update: Update, context: ContextTypes.DEFAULT_TYPE)
 
 
 def main():
-    if OWNER_ID == 123456789:
+    if OWNER_ID == 8914448661:
         logger.warning("⚠️ OWNER_ID non configuré !")
-    if FISH_API_KEY == "TA_CLE_FISH_AUDIO_ICI":
+    if FISH_API_KEY == "sk-fish-qW4eIJUOZuqwXGhzjm7n3sS44Bdr-SE4WFpBx4iDsho":
         logger.warning("⚠️ FISH_API_KEY non configurée — les réponses vocales seront désactivées.")
 
     app = Application.builder().token(BOT_TOKEN).build()
