@@ -111,7 +111,7 @@ STATIC_DIR.mkdir(exist_ok=True)
 
 # URL publique de ce bot une fois déployé (ex: https://ton-projet.up.railway.app)
 # <-- REMPLACE après ton premier déploiement Railway, sinon le bouton "Notre histoire" ne s'ouvrira pas.
-WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://TON-DOMAINE-RAILWAY.up.railway.app")
+WEBAPP_URL = os.environ.get("WEBAPP_URL", "https://e-girlziox-production.up.railway.app")
 BOT_USERNAME = "TonBotZiox"  # <-- REMPLACE par le username de ton bot (sans @)
 
 logging.basicConfig(
