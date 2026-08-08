@@ -41,7 +41,7 @@ from telegram.ext import (
 # ============== CONFIGURATION ==============
 BOT_TOKEN = "8230994359:AAE5R_UYe3UYKuuLhCDa-rsp4wK1JwwGMa0"  # ⚠️ à régénérer via BotFather
 
-OWNER_ID = 123456789  # <-- REMPLACE par ton ID Telegram (via @userinfobot)
+OWNER_ID = 8914448661  # <-- REMPLACE par ton ID Telegram (via @userinfobot)
 SECOND_OWNER_USERNAME = "MRS_ZIOXY"  # reconnu comme owner via son @username, sans besoin de son ID
 SECOND_OWNER_ID = 8997141271  # ID de @MRS_ZIOXY, reçoit aussi les notifications privées
 
