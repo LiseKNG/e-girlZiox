@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Ziox Bot v3 - Bot Telegram complet pour la famille Ziox
+Ziox Bot v6 - Bot Telegram complet pour la famille Ziox
 Fonctionnalités :
 - Menu esthétique avec thème de boutons (emoji) personnalisable
 - /welcome /setwelcome : activer/configurer le message de bienvenue (texte, image, pop-up)
@@ -49,7 +49,7 @@ from telegram.ext import (
 BOT_TOKEN = "8230994359:AAE5R_UYe3UYKuuLhCDa-rsp4wK1JwwGMa0"  # ⚠️ à régénérer via BotFather
 
 OWNER_ID = 8914448661  # ton ID Telegram (owner principal)
-SECOND_OWNER_USERNAME = "MRS_ZIOXY"  # reconnu comme owner via son @username, sans besoin de son ID
+SECOND_OWNER_USERNAME = "Dame_Zioxie"  # reconnu comme owner via son @username, sans besoin de son ID
 SECOND_OWNER_ID = 8997141271  # ID de @MRS_ZIOXY, reçoit aussi les notifications privées
 
 # --- "Notre histoire" (mini app profils de couple) ---
